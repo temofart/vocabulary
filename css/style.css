@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Philosopher');
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Philosopher', sans-serif;
+}
+.enter-word {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #90c1f3;
+}
+.enter-word input {
+  width: 200px;
+  height: 50px;
+  margin-left: 15px;
+  padding: 0 10px;
+  font-size: 26px;
+  border-radius: 4px;
+  outline: none;
+  border: 0;
+}
+.enter-word button {
+  width: 200px;
+  height: 50px;
+  margin-left: 20px;
+  border-radius: 4px;
+  font-size: 20px;
+  cursor: pointer;
+  border: 0;
+	transition: all .5s ease;
+	background: linear-gradient(287deg, #00bbfe, #005cff);
+	color: white;
+	box-shadow: 0 15px 17px -15px #2588ed;
+}
+.enter-word button:hover {
+  box-shadow: none;
+}
+.all-words {
+  padding: 50px;
+  background: #FBEFFB;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.item {
+  border: 1px solid #dedede;
+  border-radius: 5px;
+  margin: 10px 15px;
+  background: #fff;
+  box-shadow: 2px 2px 4px #dedede;
+  transition: all .3s ease;
+  min-width: 200px;
+  min-height: 100px;
+	cursor: pointer;
+	position: relative;
+}
+.item:hover {
+  box-shadow: 0px 0px 5px 3px #90c1f3;;
+}
+.item .word {
+  height: 33.3%;
+  display: flex;
+  align-items: center;
+  padding: 0 5px;
+}
+.item .word.first-word {
+ 	background: #E6E6E6;
+}
+.item .word.second-word {
+  background: #F2F2F2;
+}
+.item .word.description {
+	background: white;
+	font-size: 12px;
+}
+.close {
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	background: url(../img/close.svg) no-repeat center center;
+	background-size: cover;
+}
