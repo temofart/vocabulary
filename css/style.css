@@ -83,6 +83,6 @@ html, body {
 	position: absolute;
 	top: 5px;
 	right: 5px;
-	background: url(../img/close.svg) no-repeat center center;
-	background-size: cover;
+  background: url('../img/close.svg') no-repeat center center;
+  padding: 3px;
 }
