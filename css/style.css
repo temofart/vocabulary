@@ -44,6 +44,7 @@ html, body {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
+  min-height: 100vh;
 }
 .item {
   border: 1px solid #dedede;
